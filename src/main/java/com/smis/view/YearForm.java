@@ -38,6 +38,8 @@ public class YearForm extends FormLayout{
 		yearName.setValueChangeMode(ValueChangeMode.LAZY);
 		yearName.addValueChangeListener(e->yearLabel.setValue(e.getValue()));
 		add(yearName, yearLabel, inUse, createButtonsLayout());
+		
+		System.out.print("test");
 	}
 	
 	private Component createButtonsLayout() {
